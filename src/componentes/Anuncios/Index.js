@@ -9,6 +9,8 @@ import Button from 'react-bootstrap/Button';
 import card from '../imgs/gin-orloff_dry_gin_1l1-dc8135436024d42ade16855352192116-480-0.jpg';
 import Image from 'react-bootstrap/Image';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Tenda from '../imgs/certas/cobertura-geodesica.jpg';
+import Brinquedos from '../imgs/certas/istockphoto-1366864370-1024x1024.jpg';
 
 const Anuncios = () => {
     return (
@@ -113,7 +115,7 @@ const Anuncios = () => {
                                 <Row>
                                     <Col sm="3" className="d-flex align-items-center">
                                         <Image src={card} style={{ width: '80px', height: '80px' }} rounded />
-                                        <span className="ml-2">Vodka</span>
+                                        <span className="ml-2" style={{marginLeft: '8%'}}>Vodka</span>
                                     </Col>
                                     <Col sm="6" className="d-flex align-items-center justify-content-center">
                                         industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -137,8 +139,10 @@ const Anuncios = () => {
                             <Card.Body>
                                 <Row>
                                     <Col sm="3" className="d-flex align-items-center">
-                                        <Image src={card} style={{ width: '80px', height: '80px' }} rounded />
-                                        <span className="ml-2">Vodka</span>
+                                        <Image src={Tenda} style={{ width: '80px', height: '80px' }} rounded />
+                                        <span className="ml-2"
+                                        style={{marginLeft: '8%'}}
+                                        >Tenda</span>
                                     </Col>
                                     <Col sm="6" className="d-flex align-items-center justify-content-center">
                                         industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -162,8 +166,8 @@ const Anuncios = () => {
                             <Card.Body>
                                 <Row>
                                     <Col sm="3" className="d-flex align-items-center">
-                                        <Image src={card} style={{ width: '80px', height: '80px' }} rounded />
-                                        <span className="ml-2">Vodka</span>
+                                        <Image src={Brinquedos} style={{ width: '80px', height: '80px' }} rounded />
+                                        <span className="ml-2" style={{marginLeft: '8%'}}>Roda Gingante</span>
                                     </Col>
                                     <Col sm="6" className="d-flex align-items-center justify-content-center">
                                         industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
